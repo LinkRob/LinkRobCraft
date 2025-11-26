@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LinkRobCraft</title>
+  <link rel="manifest" href="/manifest.json">
+  <style>
+    html,body,#game-root { height: 100%; margin: 0; overflow: hidden; background: #87ceeb; }
+    #overlay { position: absolute; left: 10px; top: 10px; color: white; font-family: sans-serif; z-index: 10; }
+  </style>
+</head>
+<body>
+  <div id="game-root"></div>
+  <div id="overlay">
+    <div id="hud">Hearts: ♥♥♥♥♥♥♥♥♥♥</div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
